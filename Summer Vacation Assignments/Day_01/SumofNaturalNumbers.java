@@ -10,6 +10,5 @@ public class SumofNaturalNumbers {
             sum = sum + i;
         }
         System.out.println("The sum of first " + n + " natural numbers is " + sum);
-
     }
 }
