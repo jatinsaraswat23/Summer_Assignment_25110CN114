@@ -5,11 +5,11 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
-        int product = 1;
+        int fact = 1;
         System.out.println("The factorial of " + n + " is: ");
         for (int i = 1; i <= n; i++) {
-            product = product * i;
+            fact = fact * i;
         }
-        System.out.println(product);
+        System.out.println(fact);
     }
 }
